@@ -1,0 +1,43 @@
+First 5 Rows:
+  Product  Sales  Quantity Region
+0  Laptop  50000         5  North
+1  Mobile  30000        10  South
+2  Tablet  20000         4   East
+3  Laptop  55000         6   West
+4  Mobile  35000        12  North
+
+Dataset Shape:
+(5, 4)
+
+Data Types:
+Product     object
+Sales        int64
+Quantity     int64
+Region      object
+dtype: object
+
+Missing Values:
+Product     0
+Sales       0
+Quantity    0
+Region      0
+dtype: int64
+
+Statistical Summary:
+              Sales   Quantity
+count      5.000000   5.000000
+mean   38000.000000   7.400000
+std    14577.379737   3.577709
+min    20000.000000   4.000000
+25%    30000.000000   5.000000
+50%    35000.000000   6.000000
+75%    50000.000000  10.000000
+max    55000.000000  12.000000
+
+Duplicate Rows:
+0
+
+Total Sales: 190000
+Average Sales: 38000.0
+Maximum Sales: 55000
+Minimum Sales: 20000
